@@ -1,0 +1,44 @@
+body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.reset {
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#outcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
